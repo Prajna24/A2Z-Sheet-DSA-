@@ -14,6 +14,10 @@ public class Pattern7 {
             for (int col = 1; col < totColInRow; col++) {
                 System.out.print("*");
             }
+
+            for (int s = 0; s < spaces; s++) {
+                System.out.print(" ");
+            }
             System.out.println();
         }
     }

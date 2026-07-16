@@ -15,6 +15,9 @@ public class Pattern8 {
                 System.out.print("*");
             }
 
+            for (int space = 0; space < row; space++) {
+                System.out.print(" ");
+            }
             System.out.println();
         }
     }
