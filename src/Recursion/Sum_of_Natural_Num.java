@@ -1,7 +1,5 @@
 package Recursion;
 
-import java.util.Scanner;
-
 public class Sum_of_Natural_Num {
     public int SumofNum(int n){
         if(n == 1)
@@ -10,8 +8,7 @@ public class Sum_of_Natural_Num {
     }
     public static void main(String[] args) {
         Sum_of_Natural_Num res = new Sum_of_Natural_Num();
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
+        int n = 5;
         System.out.println(res.SumofNum(n));
     }
 }
